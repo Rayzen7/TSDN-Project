@@ -1,0 +1,6 @@
+Data Gizi Apel:
+Kalori: 52 kkal
+Karbohidrat: 14 g
+Protein: 0.3 g
+Lemak: 0.2 g
+Serat: 2.4 g
