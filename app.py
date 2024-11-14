@@ -27,7 +27,7 @@ def is_primary_color_present(image_path, target_color):
     masked_img = cv2.bitwise_and(img, img, mask=mask)
     non_zero_pixels = cv2.countNonZero(cv2.cvtColor(masked_img, cv2.COLOR_BGR2GRAY))
     total_pixels = img.shape[0] * img.shape[1]
-    return non_zero_pixels / total_pixels > 0.1  # Jika lebih dari 10% gambar memiliki warna target
+    return non_zero_pixels / total_pixels > 0.1 
 
 @app.route('/api/match_image', methods=['POST'])
 def match_image():
@@ -40,7 +40,7 @@ def match_image():
 
         asset_image_path = 'assets/pisang.jpg'
 
-        if not is_primary_color_present(uploaded_image_path, target_color=(30, 255, 255)):  # Warna kuning
+        if not is_primary_color_present(uploaded_image_path, target_color=(30, 255, 255)): 
             return jsonify({"message": "Gambar tidak cocok, warna dominan bukan kuning"}), 400
 
         is_matched = match_images(uploaded_image_path, asset_image_path)
