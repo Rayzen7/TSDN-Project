@@ -1,6 +1,6 @@
 Data Gizi Pisang:
 Kalori: 89 kkal
-Karbohidrat: 22,8 g
-Protein: 1,1 g
-Lemak: 0,3 g
-Serat: 2,6 g
+Karbohidrat: 22.8 g
+Protein: 1.1 g
+Lemak: 0.3 g
+Serat: 2.6 g

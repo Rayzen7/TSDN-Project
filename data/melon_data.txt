@@ -1,6 +1,6 @@
 Data Gizi Melon:
 Kalori: 34 kkal
-Karbohidrat: 8,2 g
-Protein: 0,8 g
-Lemak: 0,2 g
-Serat: 0,9 g
+Karbohidrat: 8.2 g
+Protein: 0.8 g
+Lemak: 0.2 g
+Serat: 0.9 g
