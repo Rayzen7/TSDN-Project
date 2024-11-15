@@ -97,15 +97,15 @@ def match_image():
 
         threshold = 20
 
-        if green_percentage > threshold:
+        if red_percentage > threshold:
+            fruit = "Apel"
+            color_check = "merah"
+        elif green_percentage > threshold:
             fruit = "Melon"
             color_check = "hijau"
         elif yellow_percentage > threshold:
             fruit = "Pisang"
             color_check = "kuning"
-        elif red_percentage > threshold:
-            fruit = "Apel"
-            color_check = "merah"
         else:
             fruit = "Tidak Dikenali"
             color_check = "tidak teridentifikasi"
