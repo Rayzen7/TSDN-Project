@@ -25,9 +25,9 @@ const Section3 = () => {
             </div>
             </div>
             <div className='flex lg:flex-row flex-col justify-center items-center gap-10'>
-              <img src={img5} alt="" className='w-auto lg:h-[500px] h-[800px]'/>
-              <img src={img6} alt="" className='w-auto lg:h-[500px] h-[800px]'/>
-              <img src={img7} alt="" className='w-auto lg:h-[500px] h-[800px]'/>
+              <img src={img5} alt="" className='w-auto lg:h-[500px] h-[600px]'/>
+              <img src={img6} alt="" className='w-auto lg:h-[500px] h-[600px]'/>
+              <img src={img7} alt="" className='w-auto lg:h-[500px] h-[600px]'/>
             </div>
         </div>
     </div>
