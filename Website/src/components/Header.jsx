@@ -9,7 +9,7 @@ const Header = () => {
         </div>
         <div className="bg-orange w-full h-[30vh] lg:h-[26vh] text-black font-Poppins font-[600] flex lg:flex-row flex-col justify-center gap-7 lg:gap-[300px] cursor-pointer items-center text-[19px] mt-7">
             <Link to='/machine'><button className="bg-green px-7 py-3 rounded-full hover:bg-greenHover duration-300">Machine Learning</button></Link>
-            <Link><button className="bg-green px-7 py-3 rounded-full hover:bg-greenHover duration-300">application</button></Link>
+            <Link><button className="bg-green px-7 py-3 rounded-full hover:bg-greenHover duration-300">Application</button></Link>
         </div>
     </div>
   )

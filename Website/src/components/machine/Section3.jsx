@@ -1,10 +1,9 @@
 import img1 from '/projects/c1.png'
-import img2 from '/projects/c2.png'
 
 const Section3 = () => {
   return (
     <div className='mt-16'>
-        <div className='bg-orange lg:flex-row flex-col-reverse lg:py-0 py-12 flex justify-center items-center gap-16 lg:gap-32 w-full'>
+        <div className='bg-orange lg:flex-row flex-col-reverse py-12 flex justify-center items-center gap-16 lg:gap-32 w-full'>
             <div className='font-Poppins'>
                 <h1 className='text-[35px] mb-5 font-[600] lg:px-0 px-7'>Train & Test</h1>
                 <div className='lg:w-[600px] w-full lg:px-0 px-7 text-justify'>
@@ -15,7 +14,6 @@ const Section3 = () => {
             </div>
             <div className='flex flex-col justify-center items-center gap-10'>
               <img src={img1} alt="" className='w-[300px] lg:w-[450px] h-auto'/>
-              <img src={img2} alt="" className='w-[300px] lg:w-[450px] h-auto'/>
             </div>
         </div>
     </div>
