@@ -1,0 +1,26 @@
+.home::-webkit-scrollbar {
+    width: 12px; 
+}
+  
+.home::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+  
+.home::-webkit-scrollbar-thumb {
+    background: #A3DA8D; 
+    border-radius: 10px;
+}
+  
+.home::-webkit-scrollbar-thumb:hover {
+    background: #80b16d; 
+}
+
+br {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    br {
+        display: none;
+    }
+}
