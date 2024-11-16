@@ -7,7 +7,7 @@ const Header = () => {
       <div className='flex flex-col gap-5'>
           <div className='lg:text-start text-center'>
               <h1 className='font-[600] text-[30px] lg:text-[38px]'>Nutrition Scanner</h1>
-              <p className='lg:text-[20px] lg:px-0 px-5 text-[17px]'>Sistem Scanner Nutrisi Sederhana dengan menggunakan <br /> OpenCV Python</p>
+              <p className='lg:text-[20px] lg:px-0 px-5 text-[17px]'>Sistem Scanner Nutrisi dengan menggunakan <br /> OpenCV Python</p>
           </div>
           <p className='lg:w-[800px] w-full text-justify lg:px-0 px-5 text-[18px] lg:pt-0 pt-6'>OpenCV adalah pustaka untuk pengolahan gambar yang memungkinkan deteksi dan analisis objek. Dalam scanner makanan, OpenCV digunakan untuk mengubah gambar menjadi format yang dapat dianalisis, seperti mendeteksi warna dominan dan bentuk makanan, membantu sistem mengenali jenis makanan seperti pisang atau apel berdasarkan fitur visual.</p>
       </div>
