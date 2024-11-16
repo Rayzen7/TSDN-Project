@@ -7,9 +7,9 @@ const Section3 = () => {
             <div className='font-Poppins'>
                 <h1 className='text-[35px] mb-5 font-[600] lg:px-0 px-7'>Train & Test</h1>
                 <div className='lg:w-[600px] w-full lg:px-0 px-7 text-justify'>
-                  <p className='text-[18px]'>1. ORB mengekstraksi poin-poin penting (keypoints) pada gambar, seperti sudut, tepi, atau pola</p>
-                  <p className='text-[18px]'>2. Setelah fitur-fitur ini diekstrak, algoritma mencocokkan fitur dari dua gambar (gambar yang diunggah dan gambar referensi)</p>
-                  <p className='text-[18px]'>3. Jika jumlah fitur yang cocok melebihi ambang batas tertentu, maka sistem menganggap kedua gambar itu sama.</p>
+                  <p className='text-[16px]'>1. ORB mengekstraksi poin-poin penting (keypoints) pada gambar, seperti sudut, tepi, atau pola</p>
+                  <p className='text-[16px]'>2. Setelah fitur-fitur ini diekstrak, algoritma mencocokkan fitur dari dua gambar (gambar yang diunggah dan gambar referensi)</p>
+                  <p className='text-[16px]'>3. Jika jumlah fitur yang cocok melebihi ambang batas tertentu, maka sistem menganggap kedua gambar itu sama.</p>
                 </div>
             </div>
             <div className='flex flex-col justify-center items-center gap-10'>
