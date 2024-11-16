@@ -17,7 +17,7 @@ const Section2 = () => {
                   <p className='text-[18px] font-[600] mt-5'>3. Ekstraksi Fitur</p>
                   <p className='text-[16px]'>Sistem mencocokkan fitur gambar unggahan dengan referensi menggunakan ORB. Warna dominan dihitung untuk mengidentifikasi jenis buah.</p>
                   <p className='text-[18px] font-[600] mt-5'>4. Pelatihan Model</p>
-                  <p className='text-[16px]'>Sistem dilatih menggunakan data referensi untuk mempelajari pola dan fitur penting pada gambar. Proses ini memungkinkan model mengenali dan mencocokkan gambar unggahan dengan akurasi yang lebih tinggi.</p>
+                  <p className='text-[16px]'>Sistem dilatih menggunakan data referensi untuk mempelajari pola, bentuk, sudut, dan warna gambar. Proses ini memungkinkan model mengenali dan mencocokkan gambar unggahan dengan akurasi yang lebih tinggi.</p>
                   <p className='text-[18px] font-[600] mt-5'>5. Model Analisis</p>
                   <p className='text-[16px]'>Sistem menentukan jenis makanan berdasarkan warna dominan dan memverifikasi apakah warna tersebut sesuai dengan aturan serta data gizi makanan tersebut.</p>
                   <p className='text-[18px] font-[600] mt-5'>6. Output</p>
