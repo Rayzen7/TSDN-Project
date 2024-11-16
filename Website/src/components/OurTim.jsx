@@ -8,7 +8,7 @@ const OurTim = () => {
   return (
     <div>
         <h1 className='text-center font-Poppins font-[600] text-[40px] mt-10 mb-12'>Our Tim</h1>
-        <div className='flex lg:flex-row flex-col justify-center items-center gap-x-0 lg:gap-x-48 gap-y-20 mt-7 flex-wrap px-16 lg:px-52'>
+        <div className='flex lg:flex-row flex-col justify-center items-center gap-x-0 lg:gap-x-48 gap-y-20 mt-7 flex-wrap px-16 lg:px-64'>
             <div className='flex-col flex gap-5'>
                 <img src={rasya} alt="" className='w-[220px] h-auto mx-auto block'/>
                 <div>
