@@ -1,7 +1,3 @@
-import img1 from '/projects/a1.png'
-import img2 from '/projects/a2.png'
-import img3 from '/app/1.png'
-import img4 from '/app/2.png'
 import img5 from '/app/8.png'
 import img6 from '/app/9.png'
 import img7 from '/app/10.png'
@@ -27,9 +23,9 @@ const Section4 = () => {
             </div>
             </div>
             <div className='flex lg:flex-row flex-col justify-center items-center gap-10'>
-              <img src={img5} alt="" className='w-auto lg:h-[500px] h-[300px]'/>
-              <img src={img6} alt="" className='w-auto lg:h-[500px] h-[300px]'/>
-              <img src={img7} alt="" className='w-auto lg:h-[500px] h-[300px]'/>
+              <img src={img5} alt="" className='w-auto lg:h-[500px] h-[800px]'/>
+              <img src={img6} alt="" className='w-auto lg:h-[500px] h-[800px]'/>
+              <img src={img7} alt="" className='w-auto lg:h-[500px] h-[800px]'/>
             </div>
         </div>
     </div>

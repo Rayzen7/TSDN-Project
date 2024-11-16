@@ -1,4 +1,3 @@
-import img from '/projects/b1.png'
 import img3 from '/app/3.png'
 import img4 from '/app/4.png'
 
@@ -20,7 +19,7 @@ const Section2 = () => {
                   <p className='text-[18px] font-[600] mt-5'>3. Kirim Gambar ke API Machine Learning</p>
                   <p className='text-[16px]'>Setelah dikompresi, gambar dikirim melalui API POST untuk dianalisis. API ini akan mengenali objek dalam gambar, seperti jenis buah.</p>
                   <p className='text-[18px] font-[600] mt-5'>4. Menerima Hasil Deteksi Buah</p>
-                  <p className='text-[16px]'>Server mengembalikan hasil analisis dalam bentuk JSON, termasuk nama buah yang terdeteksi, misalnya "pisang" atau "apel".</p>
+                  <p className='text-[16px]'>Server mengembalikan hasil analisis dalam bentuk JSON, termasuk nama buah yang terdeteksi, misalnya &quot;pisang&quot; atau &quot;apel&quot;.</p>
                   <p className='text-[18px] font-[600] mt-5'>5. Mengambil Informasi Nutrisi</p>
                   <p className='text-[16px]'>Berdasarkan nama buah yang terdeteksi, aplikasi mengirim permintaan ke API lain untuk mendapatkan informasi nutrisi buah tersebut.</p>
                   <p className='text-[18px] font-[600] mt-5'>6. Menampilkan Informasi Nutrisi</p>
