@@ -1,5 +1,3 @@
-import img1 from '/projects/a1.png'
-import img2 from '/projects/a2.png'
 import img3 from '/app/1.png'
 import img4 from '/app/2.png'
 import '../../App.css'

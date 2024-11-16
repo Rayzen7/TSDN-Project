@@ -5,9 +5,9 @@ const Section2 = () => {
   return (
     <div className='mt-16'>
         <div className='bg-green py-12 flex lg:flex-row flex-col justify-center items-center gap-16 w-full'>
-            <div className='flex justify-center items-center gap-16'>
-              <img src={img3} alt="" className='w-auto lg:h-[600px] h-[400px]'/>
-              <img src={img4} alt="" className='w-auto lg:h-[600px] h-[400px]'/>
+            <div className='flex lg:flex-row flex-col justify-center items-center gap-16'>
+              <img src={img3} alt="" className='w-auto lg:h-[600px] h-[600px]'/>
+              <img src={img4} alt="" className='w-auto lg:h-[600px] h-[600px]'/>
             </div>
             <div className='font-Poppins'>
                 <h1 className='lg:text-[35px] text-[28px] mb-5 lg:px-0 px-7 font-[600]'>Proses Kerja Sistem Scanner (Fitur Utama)</h1>
