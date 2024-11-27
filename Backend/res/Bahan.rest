@@ -1,0 +1,27 @@
+GET http://localhost:3333/makanan/bahan
+
+###
+
+GET http://localhost:3333/makanan/bahan/1
+
+###
+
+POST http://localhost:3333/api/bahan
+Content-Type: application/json
+
+{
+  "text": "Air"
+}
+
+###
+
+PUT http://localhost:3333/bahan/3
+Content-Type: application/json
+
+{
+  "text": "Beras Putih"
+}
+
+###
+
+DELETE http://localhost:3333/api/bahan/14

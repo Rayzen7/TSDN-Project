@@ -1,0 +1,10 @@
+POST http://localhost:3333/api/makanan_bahan
+Content-Type: application/json
+
+{
+  "makananId": 1,
+  "bahanId": 1
+}
+
+###
+DELETE http://localhost:3333/makanan_bahan/1

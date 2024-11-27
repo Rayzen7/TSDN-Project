@@ -1,0 +1,27 @@
+GET http://localhost:3333/api/step
+
+###
+
+GET http://localhost:3333/step/1
+
+###
+
+POST http://localhost:3333/api/step
+Content-Type: application/json
+
+{
+  "text": "7. Siap disajikan"
+}
+
+###
+
+PUT http://localhost:3333/step/1
+Content-Type: application/json
+
+{
+  "text": "Cuci beras hingga bersih"
+}
+
+###
+
+DELETE http://localhost:3333/api/step/1

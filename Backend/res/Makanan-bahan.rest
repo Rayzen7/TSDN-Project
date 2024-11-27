@@ -1,0 +1,14 @@
+GET http://localhost:3333/api/makanan-bahan
+
+###
+POST http://localhost:3333/api/makanan-bahan
+Content-Type: application/json
+
+{
+  "makananId": 1,
+  "bahanId": 1
+}
+
+###
+
+DELETE http://localhost:3333/api/makanan-bahan/1

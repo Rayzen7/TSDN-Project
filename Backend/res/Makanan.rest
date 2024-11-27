@@ -1,0 +1,35 @@
+GET http://localhost:3333/makanan
+
+###
+
+GET http://localhost:3333/makanan/1
+
+###
+
+POST http://localhost:3333/makanan
+Content-Type: application/json
+
+{
+  "nama": "Ayam Brokoli Lada Hitam",
+  "deskripsi": "354 kal / porsi",
+  "gambar_url": "https://firebasestorage.googleapis.com/v0/b/song-e806c.appspot.com/o/Foods%2Fayam%20brokoli%20lada%20hitam.png?alt=media&token=1194f97a-3cf6-415d-b185-35632bb048a1",
+  "bahanIds": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+  "stepIds": [2, 3, 4, 5, 6, 7, 8]
+}
+
+
+###
+
+PUT http://localhost:3333/makanan/12
+Content-Type: application/json
+
+{
+  "nama": "Ayam Brokoli Lada Hitam",
+  "deskripsi": "354 kal / porsi",
+  "gambarUrl": "https://firebasestorage.googleapis.com/v0/b/song-e806c.appspot.com/o/Foods%2Fayam%20brokoli%20lada%20hitam.png?alt=media&token=1194f97a-3cf6-415d-b185-35632bb048a1",
+  "bahanIds": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+  "stepIds": [2, 3, 4, 5, 6, 7, 8]
+}
+
+###
+DELETE http://localhost:3333/makanan/1

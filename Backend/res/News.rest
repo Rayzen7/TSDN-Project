@@ -1,0 +1,69 @@
+### GET All News
+GET http://localhost:3333/news
+Accept: application/json
+
+### GET News by ID
+GET http://localhost:3333/news/2
+Accept: application/json
+
+### GET News by Category
+GET http://localhost:3333/news/category/Makanan%20Sehat
+Accept: application/json
+
+### POST News
+POST http://localhost:3333/news
+Content-Type: application/json
+
+{
+    "title": "Pemerintah optimistis Stranas baru dorong target penurunan stunting",
+    "description": "Deputi Bidang Dukungan Kebijakan Pembangunan Manusia dan Pemerataan Sekretariat Wakil Presiden RI (Setwapres) Suprayoga Hadi menyampaikan pihaknya optimistis Strategi Nasional (Stranas)",
+    "link": "https://www.antaranews.com/berita/4475461/pemerintah-optimistis-stranas-baru-dorong-target-penurunan-stunting",
+    "image": "https://firebasestorage.googleapis.com/v0/b/song-e806c.appspot.com/o/News%2Finovasi2.jpg?alt=media&token=7511fe96-7859-4b89-be0b-6b737472df34",
+    "category_news_id": 4
+}
+
+### PUT News by ID
+PUT http://localhost:3333/news/7
+Content-Type: application/json
+
+{
+  "title": "Pentingnya Gizi Seimbang bagi Kesehatan",
+  "description": "Kondisi gizi yang tidak optimal berkaitan dengan gangguan kesehatan dan kondisi kesehatan yang buruk, serta meningkatkan risiko penyakit infeksi, dan Penyakit Tidak Menular",
+  "link": "https://krakataumedika.com/info-media/artikel/pentingnya-gizi-seimbang-bagi-kesehatan",
+  "image": "https://firebasestorage.googleapis.com/v0/b/song-e806c.appspot.com/o/News%2Fnews1.jpg?alt=media&token=62b0e55e-b50d-46ec-8a02-0e3c254604d6",
+  "category_news_id": 4
+}
+
+### DELETE News by ID
+DELETE http://localhost:3333/news/1
+Accept: application/json
+
+### Category
+
+### GET All Category News
+GET http://localhost:3333/news/category-news
+Accept: application/json
+
+### GET Category News by ID
+GET http://localhost:3333/news/category-news/1
+Accept: application/json
+
+### POST Category News
+POST http://localhost:3333/news/category-news
+Content-Type: application/json
+
+{
+  "category": "Inovasi"
+}
+
+### PUT Category News by ID
+PUT http://localhost:3333/category-news/1
+Content-Type: application/json
+
+{
+  "category": "Makanan Tradisional"
+}
+
+### DELETE Category News by ID
+DELETE http://localhost:3333/category-news/1
+Accept: application/json

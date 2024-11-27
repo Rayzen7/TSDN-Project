@@ -1,0 +1,13 @@
+GET http://localhost:3333/api/makanan-step
+
+###
+POST http://localhost:3333/api/makanan-step
+Content-Type: application/json
+
+{
+  "makananId": 1,
+  "stepId": 1
+}
+
+###
+DELETE http://localhost:3333/api/makanan-step/1
